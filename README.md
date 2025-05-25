@@ -1,4 +1,4 @@
-Top 100 albums app
+📀 Top 100 albums app
 A  Android application that displays a curated list of music albums. Built with Jetpack Compose, Hilt for dependency injection, and Kotlin Coroutines for asynchronous operations.
 🚀 Getting Started
 Follow these steps to set up and run the project on your local machine.
@@ -25,7 +25,8 @@ Connect an Android device via USB or start an emulator.
 Click on the "Run" button (green arrow) in Android Studio.
 
 Select the target device and wait for the app to launch.
-Running Tests
+
+🧪 Running Tests
 The project includes unit tests for the AlbumsViewModel. To execute the tests:
 
 In Android Studio, open the Project pane.
@@ -41,7 +42,8 @@ Open the terminal in Android Studio.
 Execute the following command:
 
 ./gradlew test
-Technologies Used
+
+🛠️ Technologies Used
 Kotlin: Programming language.
 
 Jetpack Compose: Declarative UI toolkit.
