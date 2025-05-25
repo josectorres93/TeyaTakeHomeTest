@@ -72,4 +72,19 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.hilt.navigation.compose)
+    // Unit testing
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.coroutines.test)
+    testImplementation(libs.arch.core.testing)
+
+    // Android instrumented testing
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+    testImplementation(libs.turbine)
+    // Mockito Kotlin support
+    testImplementation(libs.mockito.kotlin)
 }
